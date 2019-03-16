@@ -1,12 +1,22 @@
 // adapted from https://cycle.js.org/
 
 import {run} from '@cycle/run'
-import {div, label, input, hr, h1, makeDOMDriver} from '@cycle/dom'
+import {div, label, input, hr, h1, makeDOMDriver, DOMSource, VNode} from '@cycle/dom'
+import {Stream} from "xstream";
 
-function main(sources) {
-  const input$ = sources.DOM.select('.field').events('input')
+interface Sources {
+  Dom: DOMSource
+}
 
-  const name$ = input$.map(ev => ev.target.value).startWith('')
+interface Sinks {
+  Dom: Stream<VNode>
+}
+
+
+function main(sources: Sources): Sinks {
+  const input$ = sources.Dom.select('.field').events('input')
+
+  const name$ = input$.map(ev => (ev.target as HTMLInputElement).value).startWith('')
 
   const vdom$ = name$.map(name =>
     div([
@@ -17,7 +27,7 @@ function main(sources) {
     ])
   )
 
-  return { DOM: vdom$ }
+  return { Dom: vdom$ }
 }
 
-run(main, { DOM: makeDOMDriver('#app-container') })
+run(main, { Dom: makeDOMDriver('#app-container') })

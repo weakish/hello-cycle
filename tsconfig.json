@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es2018",
+    "sourceMap": true,
+    "jsx": "react",
+    "jsxFactory": "Snabbdom.createElement",
+    "noImplicitReturns": true,
+    "strict": true,
+    "allowJs": true,
+    "lib": ["es2018", "dom"]
+  },
+  "exclude": ["node_modules", "dist"]
+}
