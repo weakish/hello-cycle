@@ -21,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/weakish/hello-cycle/issues"
   },
-  "homepage": "https://github.com/weakish/hello-cycle"
+  "homepage": "https://github.com/weakish/hello-cycle",
+  "dependencies": {
+    "@cycle/dom": "^22.3.0",
+    "@cycle/run": "^5.2.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "snabbdom-pragma": "^2.8.0",
+    "xstream": "^11.10.0"
+  }
 }
