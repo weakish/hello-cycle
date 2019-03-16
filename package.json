@@ -2,7 +2,7 @@
   "name": "hello-cycle",
   "version": "0.0.0",
   "description": "Hello World in Cycle.js with TypeScript and JSX",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -28,5 +28,7 @@
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "snabbdom-pragma": "^2.8.0",
     "xstream": "^11.10.0"
+  },
+  "devDependencies": {
   }
 }
