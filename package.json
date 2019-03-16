@@ -1,0 +1,25 @@
+{
+  "name": "hello-cycle",
+  "version": "0.0.0",
+  "description": "Hello World in Cycle.js with TypeScript and JSX",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weakish/hello-cycle.git"
+  },
+  "keywords": [
+    "hello-world",
+    "cycle.js",
+    "typescript",
+    "jsx"
+  ],
+  "author": "Jang Rush <weakish@gmail.com>",
+  "license": "0BSD",
+  "bugs": {
+    "url": "https://github.com/weakish/hello-cycle/issues"
+  },
+  "homepage": "https://github.com/weakish/hello-cycle"
+}
