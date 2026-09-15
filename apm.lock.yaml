@@ -1,0 +1,144 @@
+lockfile_version: '1'
+apm_version: 0.30.0
+dependencies:
+- repo_url: weakish/vibe
+  name: vibe
+  host: github.com
+  resolved_commit: 88f4165c6b25a309d13e937014fbe6abc094bef2
+  resolved_ref: master
+  version: 0.0.0
+  package_type: apm_package
+  deployed_files:
+  - .agents/skills/git-commits
+  - .agents/skills/git-commits/SKILL.md
+  - .agents/skills/herdr
+  - .agents/skills/herdr/SKILL.md
+  - .agents/skills/review
+  - .agents/skills/review/SKILL.md
+  - .cursor/rules/02-style.mdc
+  - .cursor/rules/04-code-quality.mdc
+  - .cursor/rules/05-commands.mdc
+  - .cursor/rules/06-skills.mdc
+  - .cursor/rules/07-herdr.mdc
+  - .cursor/rules/08-git.mdc
+  deployed_file_hashes:
+    .agents/skills/git-commits/SKILL.md: sha256:38552b56bd1b1e8de68aa0dd6e16b9daf78c1378dda623727bd247454f45f41d
+    .agents/skills/herdr/SKILL.md: sha256:0a7bacfe0223e9607ac2400fad83322b10b1a40665c5d197975f94c376722fe5
+    .agents/skills/review/SKILL.md: sha256:5aad2d1a8685dd19a190391f492a4a054ce231f6c967cbf2a0fe8f007ca4ca3b
+    .cursor/rules/02-style.mdc: sha256:beab55d293acdd3916ec6275a906bc7b54ec0ce8568eaddc481eafeb955f452e
+    .cursor/rules/04-code-quality.mdc: sha256:5a7298f4e3e44be7bb3eadbd4a95e29bb38d601bc79f32e6047ffe27eca6040a
+    .cursor/rules/05-commands.mdc: sha256:0981617bcf5f2810c3336fd08dc06ca77eddcd6ce6f9282fca692feb97edfe8e
+    .cursor/rules/06-skills.mdc: sha256:d40b50f4c11155dd72bf3f009f0d5c78a705864257853507d5e1dbd078a59477
+    .cursor/rules/07-herdr.mdc: sha256:1e40acfc28a838212b1273aec835509de64f13e728766b380f9f6e6130894ad9
+    .cursor/rules/08-git.mdc: sha256:d7faf4f6149ace799f3f09b6918d20ef09d450a331541e4a61b42cb4a4b50e03
+  content_hash: sha256:3468f81584c901058408fc22bf0dc58f1b082afae31674749b6266b103d33c20
+  declared_license: 0BSD
+deployments:
+- kind: project-relative
+  target: cursor
+  value: .agents/skills/git-commits
+  runtime: null
+  scope: project
+  owners:
+  - weakish/vibe
+  active_owner: weakish/vibe
+  content_hash: null
+- kind: project-relative
+  target: cursor
+  value: .agents/skills/git-commits/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - weakish/vibe
+  active_owner: weakish/vibe
+  content_hash: sha256:38552b56bd1b1e8de68aa0dd6e16b9daf78c1378dda623727bd247454f45f41d
+- kind: project-relative
+  target: cursor
+  value: .agents/skills/herdr
+  runtime: null
+  scope: project
+  owners:
+  - weakish/vibe
+  active_owner: weakish/vibe
+  content_hash: null
+- kind: project-relative
+  target: cursor
+  value: .agents/skills/herdr/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - weakish/vibe
+  active_owner: weakish/vibe
+  content_hash: sha256:0a7bacfe0223e9607ac2400fad83322b10b1a40665c5d197975f94c376722fe5
+- kind: project-relative
+  target: cursor
+  value: .agents/skills/review
+  runtime: null
+  scope: project
+  owners:
+  - weakish/vibe
+  active_owner: weakish/vibe
+  content_hash: null
+- kind: project-relative
+  target: cursor
+  value: .agents/skills/review/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - weakish/vibe
+  active_owner: weakish/vibe
+  content_hash: sha256:5aad2d1a8685dd19a190391f492a4a054ce231f6c967cbf2a0fe8f007ca4ca3b
+- kind: project-relative
+  target: cursor
+  value: .cursor/rules/02-style.mdc
+  runtime: null
+  scope: project
+  owners:
+  - weakish/vibe
+  active_owner: weakish/vibe
+  content_hash: sha256:beab55d293acdd3916ec6275a906bc7b54ec0ce8568eaddc481eafeb955f452e
+- kind: project-relative
+  target: cursor
+  value: .cursor/rules/04-code-quality.mdc
+  runtime: null
+  scope: project
+  owners:
+  - weakish/vibe
+  active_owner: weakish/vibe
+  content_hash: sha256:5a7298f4e3e44be7bb3eadbd4a95e29bb38d601bc79f32e6047ffe27eca6040a
+- kind: project-relative
+  target: cursor
+  value: .cursor/rules/05-commands.mdc
+  runtime: null
+  scope: project
+  owners:
+  - weakish/vibe
+  active_owner: weakish/vibe
+  content_hash: sha256:0981617bcf5f2810c3336fd08dc06ca77eddcd6ce6f9282fca692feb97edfe8e
+- kind: project-relative
+  target: cursor
+  value: .cursor/rules/06-skills.mdc
+  runtime: null
+  scope: project
+  owners:
+  - weakish/vibe
+  active_owner: weakish/vibe
+  content_hash: sha256:d40b50f4c11155dd72bf3f009f0d5c78a705864257853507d5e1dbd078a59477
+- kind: project-relative
+  target: cursor
+  value: .cursor/rules/07-herdr.mdc
+  runtime: null
+  scope: project
+  owners:
+  - weakish/vibe
+  active_owner: weakish/vibe
+  content_hash: sha256:1e40acfc28a838212b1273aec835509de64f13e728766b380f9f6e6130894ad9
+- kind: project-relative
+  target: cursor
+  value: .cursor/rules/08-git.mdc
+  runtime: null
+  scope: project
+  owners:
+  - weakish/vibe
+  active_owner: weakish/vibe
+  content_hash: sha256:d7faf4f6149ace799f3f09b6918d20ef09d450a331541e4a61b42cb4a4b50e03

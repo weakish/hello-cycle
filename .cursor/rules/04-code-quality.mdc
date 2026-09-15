@@ -1,0 +1,21 @@
+---
+description: "How to edit code in this repo"
+---
+
+## Code quality
+
+- Read files in full before broad edits, audits, or changing unread files; do not rely on search snippets
+- Ask before removing intentional behavior
+- One clear approach; refactor duplication; no weird parallel defaults
+- Propagate failures (throw/exit); no silent fallbacks; no shims unless asked
+- Prefer a small function with a long, descriptive name over a comment that restates what the code does; reserve comments for non-obvious details (formats, limits, platform quirks)
+- Match the language and conventions of the project you are in; do not impose another project's stack
+
+## Monorepos
+
+When working in a monorepo:
+
+- Treat each top-level project as independent unless it explicitly opts into shared tooling or dependencies
+- Prefer project-local configuration and follow project-local `AGENTS.md` and `.agents/skills/`
+- Do not invent a root workspace or toolchain
+- Never edit or delete the root `README.md`

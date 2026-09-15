@@ -1,0 +1,8 @@
+---
+description: "How to run project tasks and tests"
+---
+
+## Commands
+
+- Use documented tasks/scripts (README, `package.json` scripts, `deno task`, `make`, etc.)
+- After creating/modifying a test: run it until it passes. No sleeps in tests.

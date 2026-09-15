@@ -1,0 +1,13 @@
+name: hello-cycle
+version: "0.0.0"
+description: Hello World in Cycle.js with TypeScript and JSX
+author: weakish
+license: 0BSD
+repository: https://github.com/weakish/hello-cycle
+targets:
+  - cursor
+includes: auto
+dependencies:
+  apm:
+    - weakish/vibe#master
+  mcp: []

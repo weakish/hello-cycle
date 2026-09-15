@@ -1,0 +1,7 @@
+---
+description: "When to use Herdr (only if the user asks)"
+---
+
+## Herdr
+
+Herdr is a terminal multiplexer for coding agents (workspaces, tabs, panes). Use it **only** when the user mentions Herdr or asks to inspect/control panes, tabs, workspaces, commands, or another agent — not merely because work could run in a background pane. Requires `HERDR_ENV=1`; if unset or not `1`, say you are not inside Herdr and stop. When using it, read and follow `.agents/skills/herdr/SKILL.md`.
